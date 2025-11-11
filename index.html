@@ -111,97 +111,133 @@
     </div>
   </section>
 
-  <!-- Work -->
-  <section id="work" aria-labelledby="work-title">
-    <div class="container">
-      <h2 id="work-title">Selected Work</h2>
+ <!-- Work -->
+<section id="work" aria-labelledby="work-title">
+  <div class="container">
+    <h2 id="work-title">Selected Work</h2>
 
-      <!-- Commercial -->
-      <article class="case">
-        <img src="/assets/img/commercial-launch-thumb.webp" alt="Commercial brand launch still" loading="lazy" width="640" height="360">
-        <div>
-          <h3>Brand Launch — Commercial</h3>
-          <p><strong>Role:</strong> Producer, DP, Editor</p>
-          <p><strong>Deliverables:</strong> 30 sec hero + 3× 10 sec verticals</p>
-          <p><strong>Result:</strong> Increased CTR and watch-through on paid ads</p>
-          <button class="btn btn-ghost" data-open="modal-commercial">Watch</button>
-        </div>
-      </article>
-
-      <!-- Event -->
-      <article class="case">
-        <img src="/assets/img/event-festival-thumb.webp" alt="Event festival recap still" loading="lazy" width="640" height="360">
-        <div>
-          <h3>City Festival — Event Recap</h3>
-          <p><strong>Role:</strong> Shooter, Editor</p>
-          <p><strong>Deliverables:</strong> 60 sec recap + 15 sec vertical</p>
-          <p><strong>Result:</strong> Social engagement lift, sponsor-ready asset</p>
-          <button class="btn btn-ghost" data-open="modal-event">Watch</button>
-        </div>
-      </article>
-
-      <!-- Aerial -->
-      <article class="case">
-        <img src="/assets/img/aerial-showcase-thumb.webp" alt="Aerial property showcase still" loading="lazy" width="640" height="360">
-        <div>
-          <h3>Property Showcase — Aerial</h3>
-          <p><strong>Role:</strong> Part 107 pilot, Editor</p>
-          <p><strong>Deliverables:</strong> 45 sec aerial cut + 10 photos</p>
-          <p><strong>Result:</strong> Used in listing and ads</p>
-          <button class="btn btn-ghost" data-open="modal-aerial">Watch</button>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- Video modals -->
-  <div id="modal-commercial" class="modal" role="dialog" aria-modal="true" aria-label="Commercial video" hidden>
-    <button class="modal-close" aria-label="Close" data-close>×</button>
-    <div class="modal-body">
-      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;">
-        <!-- Replace with your commercial YouTube ID -->
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_COMMERCIAL?rel=0"
-          title="Commercial — Brand Launch"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+    <!-- Commercial -->
+    <article class="case">
+      <img
+        src="https://img.youtube.com/vi/jydDI17W21U/maxresdefault.jpg"
+        alt="Commercial spot thumbnail"
+        loading="lazy" width="640" height="360">
+      <div>
+        <h3>Commercial — Product Spot</h3>
+        <p><strong>Role:</strong> Producer, DP, Editor</p>
+        <p><strong>Deliverables:</strong> 30–45s hero + 3x 10–15s verticals</p>
+        <p><strong>Result:</strong> Paid ads ready; strong hook in first 3 seconds</p>
+        <button class="btn btn-ghost" data-open="modal-commercial">Watch</button>
       </div>
+    </article>
+
+    <!-- Promo -->
+    <article class="case">
+      <img
+        src="https://img.youtube.com/vi/iakMlgX6g3c/maxresdefault.jpg"
+        alt="Promo video thumbnail"
+        loading="lazy" width="640" height="360">
+      <div>
+        <h3>Promo — Brand Teaser</h3>
+        <p><strong>Role:</strong> Director, Editor</p>
+        <p><strong>Deliverables:</strong> 45–60s main + 1 vertical cut</p>
+        <p><strong>Result:</strong> Social-first asset for awareness</p>
+        <button class="btn btn-ghost" data-open="modal-promo">Watch</button>
+      </div>
+    </article>
+
+    <!-- Travel / Docu-style -->
+    <article class="case">
+      <img
+        src="https://img.youtube.com/vi/CKdwap1EJok/maxresdefault.jpg"
+        alt="Travel film thumbnail"
+        loading="lazy" width="640" height="360">
+      <div>
+        <h3>Travel — Docu-style Short</h3>
+        <p><strong>Role:</strong> Shooter, Editor</p>
+        <p><strong>Deliverables:</strong> 60–90s travel cut</p>
+        <p><strong>Result:</strong> Atmosphere and pacing for lifestyle brands</p>
+        <button class="btn btn-ghost" data-open="modal-travel">Watch</button>
+      </div>
+    </article>
+
+    <!-- Aerial -->
+    <article class="case">
+      <img
+        src="https://img.youtube.com/vi/ZMj1WPM4g1I/maxresdefault.jpg"
+        alt="Aerial reel thumbnail"
+        loading="lazy" width="640" height="360">
+      <div>
+        <h3>Aerial — Cinematic Drone</h3>
+        <p><strong>Role:</strong> Part 107 pilot, Editor</p>
+        <p><strong>Deliverables:</strong> 45–75s aerial cut + stills</p>
+        <p><strong>Result:</strong> Listing/advertising-ready footage</p>
+        <button class="btn btn-ghost" data-open="modal-aerial">Watch</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- Video modals -->
+<div id="modal-commercial" class="modal" role="dialog" aria-modal="true" aria-label="Commercial video" hidden>
+  <button class="modal-close" aria-label="Close" data-close>×</button>
+  <div class="modal-body">
+    <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;">
+      <iframe
+        src="https://www.youtube.com/embed/jydDI17W21U?rel=0"
+        title="Commercial — Product Spot"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
     </div>
   </div>
+</div>
 
-  <div id="modal-event" class="modal" role="dialog" aria-modal="true" aria-label="Event video" hidden>
-    <button class="modal-close" aria-label="Close" data-close>×</button>
-    <div class="modal-body">
-      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;">
-        <!-- Replace with your event YouTube ID -->
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_EVENT?rel=0"
-          title="Event Recap"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
-      </div>
+<div id="modal-promo" class="modal" role="dialog" aria-modal="true" aria-label="Promo video" hidden>
+  <button class="modal-close" aria-label="Close" data-close>×</button>
+  <div class="modal-body">
+    <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;">
+      <iframe
+        src="https://www.youtube.com/embed/iakMlgX6g3c?rel=0"
+        title="Promo — Brand Teaser"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
     </div>
   </div>
+</div>
 
-  <div id="modal-aerial" class="modal" role="dialog" aria-modal="true" aria-label="Aerial video" hidden>
-    <button class="modal-close" aria-label="Close" data-close>×</button>
-    <div class="modal-body">
-      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;">
-        <!-- Replace with your aerial YouTube ID -->
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_AERIAL?rel=0"
-          title="Aerial Reel"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
-      </div>
+<div id="modal-travel" class="modal" role="dialog" aria-modal="true" aria-label="Travel video" hidden>
+  <button class="modal-close" aria-label="Close" data-close>×</button>
+  <div class="modal-body">
+    <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;">
+      <iframe
+        src="https://www.youtube.com/embed/CKdwap1EJok?rel=0"
+        title="Travel — Docu-style Short"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
     </div>
   </div>
+</div>
+
+<div id="modal-aerial" class="modal" role="dialog" aria-modal="true" aria-label="Aerial video" hidden>
+  <button class="modal-close" aria-label="Close" data-close>×</button>
+  <div class="modal-body">
+    <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;">
+      <iframe
+        src="https://www.youtube.com/embed/ZMj1WPM4g1I?rel=0"
+        title="Aerial — Cinematic Drone"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+    </div>
+  </div>
+</div>
 
   <!-- Services -->
   <section class="services" id="services" aria-labelledby="services-title">
